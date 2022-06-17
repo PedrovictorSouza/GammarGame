@@ -1,0 +1,162 @@
+body {
+  background: #F1DAC4;
+  font-family: 'Nunito', sans-serif;
+}
+
+ul {
+  margin: 0 auto;
+  margin-top:50px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #758BFD;
+  border: none;
+  font-size: 18pt;
+  font-family: 'Nunito', sans-serif;
+  color: #f5f1cc;
+}
+
+button:hover {
+  background-color: #1fa886;
+  border: 2px solid white;
+  transition: .3s;
+}
+
+li {
+  width: 30vw;
+  height: fit-content;
+  background-color: #161B33;
+  padding: 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color: #390099;
+}
+
+p {
+  color: #011936;
+  font-size: 16pt;
+  font-weight: 700;
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+h1, p, h3 {
+  margin-left: 10px;
+}
+
+
+.heart {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.btn-2 {
+  background: none;
+  font-size: 12pt;
+  color: black;
+  margin-top: 10px;
+  border: 2px solid black;
+}
+
+#avatar {
+  width: 100px;
+}
+
+
+#begin-screen {
+  background-color:#E5CEDC;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}
+
+#head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#head p {
+  margin: 0px;
+  margin-left: 5px;
+  font-weight: 300;
+}
+
+#logo {
+  width: 200px;
+}
+#begin-screen h1 {
+  font-size: 40pt;
+  margin-bottom: 0px;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #afa69d;
+  border-radius: 5px;
+}
+
+#myBar {
+  width: 100%;
+  height: 30px;
+  background-color: #F6511D;
+  border-radius: 5px;
+}
+
+#score {
+  border: 2px solid #625d59;
+  background-color: #f5f1cc;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+#game-over {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000d2;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+#game-over img {
+  width: 100px;
+}
+
+#game-over h1 {
+  color: #f5f1cc;
+}
+
+#game {
+  visibility: hidden;
+}

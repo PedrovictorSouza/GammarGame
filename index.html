@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript Events</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section id="game">
+    <div id="head">
+      <img id="avatar" src="/images/avatar-ok.svg" alt="">
+      <h1 id="title">Question</h1>
+      <div>
+        <p>Lives Left:</p>
+        <img class="heart" src="/images/heart-full.svg" alt="">
+        <img class="heart" src="/images/heart-full.svg" alt="">
+        <img class="heart" src="/images/heart-full.svg" alt="">
+      </div>
+    </div>
+  
+    <p id="question">It's a function that takes two numbers as argument, add the two numbers and return the result.</p>
+    <h3 id="score">Score: </h3>
+  
+    <div id="myProgress">
+      <div id="myBar"></div>
+    </div>
+    <div id="table">
+      <ul class="grid">
+        <li><img src="images/sumTwo-02.svg" alt="wrong"></li>
+        <li><img src="images/sumTwo-04.svg" alt="wrong"></li>
+        <li><img src="images/sumTwo-01.svg" alt="write"></li>
+        <li><img src="images/sumTwo-03.svg" alt="wrong"></li>
+      </ul>
+    </div>
+  
+    <div id="game-over">
+      <img src="/images/avatar-gameOver.svg" alt="">
+      <h1>GAME OVER!</h1>
+      <h3 style="margin: 20px" id="score">Score: </h3>
+      <button onclick="start()">TRY AGAIN</button>
+    </div>
+  </section>
+  
+
+  <div id="begin-screen">
+    <img id="logo" src="/images/grandma-coding.svg" alt="">
+    <h1>WELCOME TO THE CODE GRAMMAR!</h1>
+    <p>The main purpose of this game is to <br> practice programming language syntax (more specifically javascript) until it becomes an habit.</p>
+    <button onclick="start()">START GAME</button>
+    <button class="btn-2">CHECK TUTORIAL</button>
+  </div>
+
+ 
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
